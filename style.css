@@ -75,3 +75,61 @@
 .dropdown:hover .dropdown-content{
     display: block;
 }
+
+/* hero section style starts here */
+#hero-section{
+    background-image:linear-gradient(rgba(80, 80, 80, 0.1) 47.4%, rgb(0, 0, 0) 90.97%),url('/hero-image.jpg');
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero-heading{
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 9px black;
+    padding-top: 80px;
+}
+
+/* typing effect code  */
+#typing-container {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 9px black;
+    padding-top: 20px;
+
+}
+
+#cursor {
+    display: inline-block;
+    width: 4px;
+    height: 30px;
+    background-color: white;
+    animation: blink-caret 0.75s infinite;
+}
+
+#text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(30, end);
+}
+
+/* Text typing animation */
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+/* Cursor blinking animation */
+@keyframes blink-caret {
+    50% {
+        opacity: 0
+    }
+}
+
