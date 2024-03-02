@@ -77,8 +77,9 @@
 }
 
 /* hero section style starts here */
+
 #hero-section{
-    background-image:linear-gradient(rgba(80, 80, 80, 0.1) 47.4%, rgb(0, 0, 0) 90.97%),url('/hero-image.jpg');
+    background-image:linear-gradient(rgba(80, 80, 80, 0.1) 47.4%, rgb(0, 0, 0) 90.97%),url('/images/hero-image.jpg');
     height: 85vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,3 +134,67 @@
     }
 }
 
+#search-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#search-box{
+    width: 700px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid aqua;
+}
+
+#search-input{
+    color: aliceblue;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 650px;
+    caret-color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#search-input::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+#search-icon{
+    background-color:gold;
+    text-align: center;
+    padding: 26px;
+}
+
+#reviews-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 210px;
+}
+.review-section{
+    display: flex;
+    align-items: center;
+}
+.review-image{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.rating-star{
+    color: gold;
+}
+
+.rating-percentage{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.rating-count {
+    color: aliceblue;
+}
+/* hero section style ends here */
