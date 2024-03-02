@@ -32,3 +32,46 @@
     border-bottom: 3px solid rgb(4, 205, 251);
 }
 /* topbar styles end */
+
+/* navbar style starts */
+#navbar-main{
+    background-color: rgb(1, 175, 209);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.dropdown{
+    display: inline-flex;
+    margin-left: 60px;     
+}
+
+.dropdown-title{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.dropdown-items{
+    display: block;
+    padding: 2px 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* .dropdown-items:hover {} */
+
+.dropdown .dropdown-content{
+    display: none;
+    margin-top: 40px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    width: 180px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
