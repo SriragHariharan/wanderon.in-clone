@@ -2,6 +2,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
 /* topbar styles start */
@@ -198,3 +199,45 @@
     color: aliceblue;
 }
 /* hero section style ends here */
+
+/* good friday banner */
+#good-friday-banner {
+    text-align: center;
+}
+
+#good-friday-image {
+    display: block;
+    margin: 60px;
+    width: 92%;
+}
+
+/* hottest destinations section starts here */
+#hottest-destination-title{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(1, 95, 116);
+    font-weight: 900;
+}
+
+#trending-this-month{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgba(12, 12, 12, 0.6);
+}
+
+#destinations-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#destinations-container img {
+    width: 280px;
+    height: 350px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
