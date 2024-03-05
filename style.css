@@ -80,7 +80,7 @@
 /* hero section style starts here */
 
 #hero-section{
-    background-image:linear-gradient(rgba(80, 80, 80, 0.1) 47.4%, rgb(0, 0, 0) 90.97%),url('/images/hero-image.jpg');
+    background-image:linear-gradient(rgba(80, 80, 80, 0.1) 47.4%, rgb(0, 0, 0) 90.97%),url('/images/hero-section/hero-image.jpg');
     height: 85vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -200,6 +200,7 @@
 }
 /* hero section style ends here */
 
+
 /* good friday banner */
 #good-friday-banner {
     text-align: center;
@@ -231,6 +232,7 @@
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -238,6 +240,39 @@
 #destinations-container img {
     width: 280px;
     height: 350px;
-    margin-bottom: 25px;
     border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+/* international community trip carousel */
+.international-community-trip-slider {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.international-community-trip-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.international-community-trip-glide__bullets {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.international-community-trip-glide__bullet {
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    background-color: #ccc;
+    border-radius: 100%;
+    margin: 0 5px;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.glide__bullet--active {
+    background-color: #3dd4e2;
 }
