@@ -26,3 +26,11 @@ new Glide('.upcomming-trips-glide', {
         }
     },
 }).mount();
+
+//experience videos review
+new Glide('.experience-videos-glide', {
+    type: 'slide',
+    perView: 1,
+    animationTimingFunc: 'ease-out',
+}).mount();
+
