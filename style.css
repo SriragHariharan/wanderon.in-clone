@@ -1065,3 +1065,119 @@ text-align: center;
     margin-bottom: 2px;
     cursor: pointer;
 }
+
+/* quick-links styles */
+
+.footer-image{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.quick-links-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 60px 10%;
+    background: rgb(1, 175, 209);
+    margin-top: -5px;
+}
+
+.quick-link-title{
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 9px;
+}
+
+.quick-link-content{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.footer-white-line{
+    margin-left: 120px;
+}
+
+/* footer styles */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.social-media-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 60px;
+    height:60px;
+    border-radius: 50px;
+    margin: 10px 15px;
+}
+
+.icon-container i{
+    color: white;
+    font-size: 32px;
+}
+
+.contact-address-container{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.address-title{
+    color: rgb(1, 95, 116);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.company-name{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 10px;
+    color: rgba(12, 12, 12, 0.8);
+}
+
+.company-address{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgba(12, 12, 12, 0.8);
+}
+
+.mobile-website-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.mobile-website-container span {
+    margin: 0px 100px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.copyright-text{
+        font-weight: 400;
+        font-size: 14px;
+        margin: 20px 100px;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.8);
+}
