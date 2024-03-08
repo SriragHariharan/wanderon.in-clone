@@ -1061,7 +1061,7 @@ text-align: center;
     margin-top: 80px;
 }
 
-.quick-links-container{
+.quick-links-bottom-container{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     padding: 60px 10%;
@@ -1180,4 +1180,53 @@ text-align: center;
     justify-content: center;
     align-items: center;
     margin: 40px 0px;
+}
+
+
+/* various destination carousel styles */
+.intl-grp-dep-text-container,
+.europe-trip-text-container,
+.weeekend-trip-text-container,
+.backpacking-india-trip-text-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+
+.intl-grp-dep-text-container div,
+.europe-trip-text-container div,
+.weeekend-trip-text-container div,
+.backpacking-india-trip-text-container div {
+    width: 6px;
+    height: 50px;
+    background: rgb(1, 175, 209);
+    margin-right: 12px;
+}
+
+.intl-grp-dep-text-container h2,
+.europe-trip-text-container h2,
+.weeekend-trip-text-container h2,
+.backpacking-india-trip-text-container h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(1, 95, 116);
+}
+
+.intl-grp-dep-slider-container,
+.europe-trip-slider-container,
+.weeekend-trip-slider-container,
+.backpacking-india-trip-slider-container{
+    width: 80vw;
+    margin: 40px auto;
+}
+
+.old-price{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 1.5px;
 }

@@ -34,3 +34,58 @@ new Glide('.experience-videos-glide', {
     animationTimingFunc: 'ease-out',
 }).mount();
 
+//international group departures slider
+new Glide('.intl-grp-dep-glide', {
+    type: 'carousel',
+    perView: 3,
+    hoverpause: true,
+    animationDuration: 1000,
+    animationTimingFunc: 'ease-in-out',
+    breakpoints: {
+        800: {
+            perView: 1
+        }
+    },
+}).mount();
+
+//europe packages slider
+new Glide('.europe-trip-glide', {
+    type: 'carousel',
+    perView: 3,
+    hoverpause: true,
+    animationDuration: 1000,
+    animationTimingFunc: 'ease-in-out',
+    breakpoints: {
+        800: {
+            perView: 1
+        }
+    },
+}).mount();
+
+// backpacking trips slider
+new Glide('.backpacking-india-trip-glide', {
+    type: 'carousel',
+    perView: 3,
+    hoverpause: true,
+    animationDuration: 1000,
+    animationTimingFunc: 'ease-in-out',
+    breakpoints: {
+        800: {
+            perView: 1
+        }
+    },
+}).mount();
+
+// weekend trips slider
+new Glide('.weeekend-trip-glide', {
+    type: 'carousel',
+    perView: 3,
+    hoverpause: true,
+    animationDuration: 1000,
+    animationTimingFunc: 'ease-in-out',
+    breakpoints: {
+        800: {
+            perView: 1
+        }
+    },
+}).mount();
