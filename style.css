@@ -96,7 +96,7 @@
 /* hero section style starts here */
 
 #hero-section{
-    background-image:linear-gradient(rgba(80, 80, 80, 0.1) 47.4%, rgb(0, 0, 0) 90.97%),url('/images/hero-section/hero-image.jpg');
+    background-image:linear-gradient(rgba(80, 80, 80, 0.1) 47.4%, rgb(0, 0, 0) 90.97%),url('images/hero-section/hero-image.jpg');
     height: 85vh;
     background-size: cover;
     background-repeat: no-repeat;
